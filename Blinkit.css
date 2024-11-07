@@ -1,0 +1,237 @@
+.header{
+    background-color: rgb(252, 254, 253);
+    height: 90px;
+    width: auto;
+    display: flex;
+    justify-content:space-evenly;
+    border: .1px solid rgba(190, 188, 188, 0.864);
+    border-radius: .5px;
+    
+}
+
+.logo img{   /* logo img */
+   
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 90px;
+    width: 150px;
+}
+
+ .logo_main{ /* logo container */
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: .1px;
+
+    background-color:white;
+    height: 90px;
+    width: 300px;
+}
+/* .logo_main :hover,.delivery_container:hover{
+    background-color: rgb(249, 248, 248);
+    height: 90px;
+   
+}
+
+.empty_container{   
+    
+    border: .01px solid rgba(190, 188, 188, 0.864);
+    border-radius: 01px;
+    height: 90px;
+}
+
+.empty_container1{ 
+    border: .01px solid white;
+    border-radius: .5px;
+    height: 90px;
+    width: 100px;   
+    border: .01px solid rgba(190, 188, 188, 0.864);
+    border-radius: 01px; 
+    background-color: black;                            
+}  */
+
+.delivery_container{  /* delivery_container */
+    text-indent: 30px;
+    background-color: rgba(14, 12, 12, 0.095);
+    
+    
+    justify-content: last baseline;
+    height: 90px;
+    width: 1000px;
+    background-color:white;
+}
+
+.delivery{
+    
+  
+}
+
+.delivery select{
+    text-indent: 28px;
+    position: relative;
+    top: -40px;
+    border: none;
+    outline: none; 
+}
+
+.delivery select {
+    width: 300px;  
+    
+}
+
+.searchbox_container{   /* searchbox_container */
+    position: relative;
+    top: 20px;
+    align-items: center;
+    margin-right: 40px;
+    height: 90px;
+    width: 650px;
+}
+.searchbox input{     /* search box */
+    left: -60px;
+    box-shadow: 0px 0px 5px 0px gray;
+    position: relative;
+    align-items: center;
+    color: rgb(6, 0, 0);
+    background-color: whitesmoke;
+    border: .01px solid rgba(190, 188, 188, 0.864);
+    border-radius: 5px;
+    height: 50px;
+    width: 700px;
+    font-size: 20px;  
+}
+
+
+
+
+
+.login_container{
+    position: relative;
+    top: 20px;
+    align-items: center;
+    margin-right: 40px;
+    height: 90px;
+    width: 100px;
+}
+.login button{
+    align-items: center;
+    color: gray;
+    border: none;
+    outline: none; 
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    /* font-size: 115%; */
+
+    font-size: 20px;
+    
+  
+}
+
+
+
+
+.mycart_container{
+    position: relative;
+    top: 20px;
+    align-items: center;
+    margin-right: 30px;
+    height: 90px;
+    width: 100px;
+}
+.mycart button{
+    align-items: center;
+    color: white;
+    background-color: green;
+    border: .01px solid rgba(190, 188, 188, 0.864);
+
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    /* font-size: 115%; */
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+  
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+.Paan_corner,.nav,.order_container,.productsList{
+    padding: 0px 150px 0px 150px;
+    width: auto;
+}  
+
+.Paan_corner{
+        display: flex;
+        margin-top: 10px;
+         background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=2700/layout-engine/2022-05/Group-33704.jpg); 
+        border-radius: 10px;
+        background-size:cover;
+        height: 250px;
+        width: auto;
+        margin-left: -100px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+.order_container{
+    margin-top: 30px;
+}
+.order img{
+    padding: 15px;
+    height: 200px;
+    width: 350px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.productsList{
+   margin-top: 0px;
+   padding: 10px 150px 0px 150px;
+   width: 200px;
+   margin-right: 20px;
+}
+.products1,.products2{
+
+    height:200px ;
+    display:flex;
+    margin-left: -201px;
+    
+    grid-template-rows: 10px;
+    padding: 10px 150px 0px 150px;
+    
+}
+
+.products img{
+    height: 10px;
+    width: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+.footer_container{
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.table1{
+    margin-top: -60px;
+    padding: 100px;
+    display: inline-block;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+     
